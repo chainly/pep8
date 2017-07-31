@@ -31,8 +31,8 @@
   - 顺序
     * #coding: utf-8
     * """docstring""" or # comment
-    * __future__
-    * dunders(?文档属性) __xx__
+    * \_\_future\_\_
+    * dunders(?文档属性) \_\_xx\_\_
     * 标准库
     * 三方库
     * 自定义库
@@ -58,15 +58,15 @@
 ### 尾逗号
   - FILES = ('setup.cfg',)
 ### 注释,文档
-  - # Xx( xx unless it shouldn't)
+  - \# Xx( xx unless it shouldn't)
   - yy  # Xx
   - """Do what and return what."""
-  - """The summary line(for index).
-  
+  - ```"""The summary line(for index).
+    
     Keyword arguments:
     x - y (default 0)
     z - z (https://www.python.org/dev/peps/pep-0257/)
-    """
+    """```
 ### 命名
   - 常量 MAX_INT
   - 变量 
@@ -74,5 +74,5 @@
   - 类实例作为参数（self）, 类作为参数（cls）
   - 类 
     * 共有 xx/xx_
-    * 私有属性 __xx
-    * 特殊属性 __xx__
+    * 私有属性 \_\_xx
+    * 特殊属性 \_\_xx\_\_
