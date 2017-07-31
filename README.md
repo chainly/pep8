@@ -59,14 +59,14 @@
   - FILES = ('setup.cfg',)
 ### 注释,文档
   - \# Xx( xx unless it shouldn't)
-  - yy  # Xx
+  - yy  \# Xx
   - """Do what and return what."""
-  - ```"""The summary line(for index).
+  - """The summary line(for index).
     
-    Keyword arguments:
-    x - y (default 0)
-    z - z (https://www.python.org/dev/peps/pep-0257/)
-    """```
+    Keyword arguments:  
+    x - y (default 0)  
+    z - z (https://www.python.org/dev/peps/pep-0257/)  
+    """
 ### 命名
   - 常量 MAX_INT
   - 变量 
